@@ -16,3 +16,4 @@ if __name__ == "__main__":
             
             for i in soup.find_all("span", {"class": "content"}):
                 print(i.text)
+                
